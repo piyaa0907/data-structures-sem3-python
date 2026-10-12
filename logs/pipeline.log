@@ -1,0 +1,26 @@
+2026-10-12 20:29:49,951 INFO     heatwave_pipeline.ingestion: sample_imd_2025_05.csv: 7 inserted, 6 rejected, 1 duplicates skipped
+2026-10-12 20:29:55,614 INFO     heatwave_pipeline.aws_simulator: simulated 240 AWS messages from 5 stations
+2026-10-12 20:29:55,647 INFO     heatwave_pipeline.ingestion: simulated-aws-seed7: 232 inserted, 6 rejected, 2 duplicates skipped
+2026-10-12 21:19:18,224 ERROR    heatwave_pipeline.cli: no such column: file_hash
+2026-10-12 21:21:12,351 INFO     heatwave_pipeline.ingestion: sample_imd_2025_05.csv: 0 inserted, 6 rejected, 8 duplicates skipped
+2026-10-12 21:21:22,789 INFO     heatwave_pipeline.ingestion: Skipped: file 'sample_imd_2025_05.csv' already ingested in run #3 (SHA-256: 6dc08b33f6f5...)
+2026-10-12 21:21:22,792 ERROR    heatwave_pipeline.cli: CHECK constraint failed: status IN ('RUNNING', 'SUCCESS', 'FAILED')
+2026-10-12 21:23:00,876 INFO     heatwave_pipeline.ingestion: Skipped: file 'sample_imd_2025_05.csv' already ingested in run #3 (SHA-256: 6dc08b33f6f5...)
+2026-10-12 21:23:13,710 INFO     heatwave_pipeline.ingestion: sample_imd_2025_05.csv: 0 inserted, 6 rejected, 8 duplicates skipped
+2026-10-12 21:23:23,747 INFO     heatwave_pipeline.ingestion: sample_imd_2025_05.json: 10 inserted, 0 rejected, 0 duplicates skipped
+2026-10-12 21:23:33,355 INFO     heatwave_pipeline.ingestion: sample_imd_2025_05_20.grd: 25 inserted, 0 rejected, 0 duplicates skipped
+2026-10-12 21:27:17,407 INFO     heatwave_pipeline.aws_simulator: Simulated 60 AWS telemetry packets from 5 stations
+2026-10-12 21:27:17,421 INFO     heatwave_pipeline.ingestion: simulated-aws-seed7: 6 inserted, 0 rejected, 54 duplicates skipped
+2026-10-12 21:27:27,928 INFO     heatwave_pipeline.ingestion: live-aws-tick-1: 5 inserted, 0 rejected, 0 duplicates skipped
+2026-10-12 21:27:28,431 INFO     heatwave_pipeline.ingestion: live-aws-tick-2: 5 inserted, 0 rejected, 1 duplicates skipped
+2026-10-12 21:27:28,943 INFO     heatwave_pipeline.ingestion: live-aws-tick-3: 5 inserted, 0 rejected, 2 duplicates skipped
+2026-10-12 21:37:07,826 INFO     heatwave_pipeline.ingestion: Skipped: file 'sample_imd_2025_05.csv' already ingested in run #5 (SHA-256: 6dc08b33f6f5...)
+2026-10-12 21:37:13,972 INFO     heatwave_pipeline.ingestion: Skipped: file 'sample_imd_2025_05.csv' already ingested in run #12 (SHA-256: 6dc08b33f6f5...)
+2026-10-12 21:37:19,387 INFO     heatwave_pipeline.ingestion: sample_imd_2025_05.csv: 0 inserted, 6 rejected, 8 duplicates skipped
+2026-10-12 21:37:27,818 INFO     heatwave_pipeline.ingestion: Skipped: file 'sample_imd_2025_05.json' already ingested in run #6 (SHA-256: 305757672705...)
+2026-10-12 21:37:33,673 INFO     heatwave_pipeline.ingestion: Skipped: file 'sample_imd_2025_05_20.grd' already ingested in run #7 (SHA-256: 6b7421883efc...)
+2026-10-12 21:37:39,457 INFO     heatwave_pipeline.aws_simulator: Simulated 120 AWS telemetry packets from 5 stations
+2026-10-12 21:37:39,469 INFO     heatwave_pipeline.ingestion: simulated-aws-seed42: 4 inserted, 0 rejected, 116 duplicates skipped
+2026-10-12 21:37:48,252 INFO     heatwave_pipeline.ingestion: live-aws-tick-1: 4 inserted, 0 rejected, 0 duplicates skipped
+2026-10-12 21:37:50,264 INFO     heatwave_pipeline.ingestion: live-aws-tick-2: 5 inserted, 0 rejected, 0 duplicates skipped
+2026-10-12 21:37:52,350 INFO     heatwave_pipeline.ingestion: live-aws-tick-3: 5 inserted, 0 rejected, 0 duplicates skipped

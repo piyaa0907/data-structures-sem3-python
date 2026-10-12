@@ -1,0 +1,180 @@
+{
+  "generated_at": "2026-10-12T21:38:18",
+  "total_observations": 313,
+  "by_source": {
+    "AWS": 271,
+    "IMD": 42
+  },
+  "by_region": [
+    {
+      "region": "CENTRAL INDIA",
+      "records": 68,
+      "min_temp_c": 24.97,
+      "max_temp_c": 47.3,
+      "avg_temp_c": 35.24
+    },
+    {
+      "region": "NORTHWEST INDIA",
+      "records": 128,
+      "min_temp_c": 25.56,
+      "max_temp_c": 46.1,
+      "avg_temp_c": 36.64
+    },
+    {
+      "region": "PENINSULAR INDIA",
+      "records": 58,
+      "min_temp_c": 26.83,
+      "max_temp_c": 39.1,
+      "avg_temp_c": 32.3
+    },
+    {
+      "region": "WEST CENTRAL INDIA",
+      "records": 59,
+      "min_temp_c": 24.28,
+      "max_temp_c": 37.81,
+      "avg_temp_c": 31.08
+    }
+  ],
+  "by_season": {
+    "POST_MONSOON": 271,
+    "PRE_MONSOON": 42
+  },
+  "coverage": {
+    "first": "2025-05-20T00:00:00",
+    "last": "2026-10-12T22:22:48"
+  },
+  "missing_humidity": 26,
+  "ingestion_totals": {
+    "records_read": 543,
+    "inserted": 313,
+    "duplicates": 200,
+    "rejected": 30
+  },
+  "clean_yield_pct": 57.6,
+  "rejections_by_reason": {
+    "invalid_timestamp": 7,
+    "missing_data_code": 6,
+    "future_timestamp": 4,
+    "missing_value": 4,
+    "non_numeric_value": 4,
+    "outside_india_coverage": 4,
+    "temperature_out_of_range": 1
+  },
+  "rejections_by_field": {
+    "temperature_c": 9,
+    "timestamp": 6,
+    "latitude/longitude": 3
+  },
+  "recent_runs": [
+    {
+      "id": 20,
+      "run_at": "2026-10-12T22:22:48",
+      "source": "AWS",
+      "input_name": "live-aws-tick-3",
+      "status": "SUCCESS",
+      "records_read": 5,
+      "inserted": 5,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "id": 19,
+      "run_at": "2026-10-12T22:07:48",
+      "source": "AWS",
+      "input_name": "live-aws-tick-2",
+      "status": "SUCCESS",
+      "records_read": 5,
+      "inserted": 5,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "id": 18,
+      "run_at": "2026-10-12T21:52:48",
+      "source": "AWS",
+      "input_name": "live-aws-tick-1",
+      "status": "SUCCESS",
+      "records_read": 4,
+      "inserted": 4,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "id": 17,
+      "run_at": "2026-10-12T21:37:39",
+      "source": "AWS",
+      "input_name": "simulated-aws-seed42",
+      "status": "SUCCESS",
+      "records_read": 120,
+      "inserted": 4,
+      "duplicates": 116,
+      "rejected": 0
+    },
+    {
+      "id": 16,
+      "run_at": "2026-10-12T21:37:33",
+      "source": "IMD",
+      "input_name": "sample_imd_2025_05_20.grd",
+      "status": "SUCCESS",
+      "records_read": 0,
+      "inserted": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "id": 15,
+      "run_at": "2026-10-12T21:37:27",
+      "source": "IMD",
+      "input_name": "sample_imd_2025_05.json",
+      "status": "SUCCESS",
+      "records_read": 0,
+      "inserted": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "id": 14,
+      "run_at": "2026-10-12T21:37:19",
+      "source": "IMD",
+      "input_name": "sample_imd_2025_05.csv",
+      "status": "SUCCESS",
+      "records_read": 14,
+      "inserted": 0,
+      "duplicates": 8,
+      "rejected": 6
+    },
+    {
+      "id": 13,
+      "run_at": "2026-10-12T21:37:13",
+      "source": "IMD",
+      "input_name": "sample_imd_2025_05.csv",
+      "status": "SUCCESS",
+      "records_read": 0,
+      "inserted": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "id": 12,
+      "run_at": "2026-10-12T21:37:07",
+      "source": "IMD",
+      "input_name": "sample_imd_2025_05.csv",
+      "status": "SUCCESS",
+      "records_read": 0,
+      "inserted": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "id": 11,
+      "run_at": "2026-10-12T22:12:27",
+      "source": "AWS",
+      "input_name": "live-aws-tick-3",
+      "status": "SUCCESS",
+      "records_read": 7,
+      "inserted": 5,
+      "duplicates": 2,
+      "rejected": 0
+    }
+  ]
+}

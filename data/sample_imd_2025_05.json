@@ -1,0 +1,97 @@
+{
+  "source": "India Meteorological Department (IMD) Pune",
+  "dataset": "Daily Surface Meteorological Observations",
+  "version": "1.0",
+  "records": [
+    {
+      "timestamp": "2025-05-20",
+      "latitude": 28.6139,
+      "longitude": 77.2090,
+      "station_id": "IMD-DEL-01",
+      "region": "NORTHWEST INDIA",
+      "temperature_c": 44.5,
+      "humidity": 22.0
+    },
+    {
+      "timestamp": "2025-05-20",
+      "latitude": 26.9124,
+      "longitude": 75.7873,
+      "station_id": "IMD-JAI-01",
+      "region": "NORTHWEST INDIA",
+      "temperature_c": 45.2,
+      "humidity": 18.5
+    },
+    {
+      "timestamp": "2025-05-20",
+      "latitude": 21.1458,
+      "longitude": 79.0882,
+      "station_id": "IMD-NAG-01",
+      "region": "CENTRAL INDIA",
+      "temperature_c": 43.8,
+      "humidity": 31.0
+    },
+    {
+      "timestamp": "2025-05-20",
+      "latitude": 19.0760,
+      "longitude": 72.8777,
+      "station_id": "IMD-MUM-01",
+      "region": "WEST CENTRAL INDIA",
+      "temperature_c": 34.0,
+      "humidity": 68.0
+    },
+    {
+      "timestamp": "2025-05-20",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "station_id": "IMD-CHE-01",
+      "region": "PENINSULAR INDIA",
+      "temperature_c": 38.6,
+      "humidity": 54.0
+    },
+    {
+      "timestamp": "2025-05-21",
+      "latitude": 28.6139,
+      "longitude": 77.2090,
+      "station_id": "IMD-DEL-01",
+      "region": "NORTHWEST INDIA",
+      "temperature_c": 45.8,
+      "humidity": 20.0
+    },
+    {
+      "timestamp": "2025-05-21",
+      "latitude": 26.9124,
+      "longitude": 75.7873,
+      "station_id": "IMD-JAI-01",
+      "region": "NORTHWEST INDIA",
+      "temperature_c": 46.1,
+      "humidity": 17.0
+    },
+    {
+      "timestamp": "2025-05-21",
+      "latitude": 21.1458,
+      "longitude": 79.0882,
+      "station_id": "IMD-NAG-01",
+      "region": "CENTRAL INDIA",
+      "temperature_c": 44.2,
+      "humidity": 28.0
+    },
+    {
+      "timestamp": "2025-05-21",
+      "latitude": 19.0760,
+      "longitude": 72.8777,
+      "station_id": "IMD-MUM-01",
+      "region": "WEST CENTRAL INDIA",
+      "temperature_c": 34.5,
+      "humidity": 65.0
+    },
+    {
+      "timestamp": "2025-05-21",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "station_id": "IMD-CHE-01",
+      "region": "PENINSULAR INDIA",
+      "temperature_c": 39.1,
+      "humidity": 52.0
+    }
+  ]
+}
